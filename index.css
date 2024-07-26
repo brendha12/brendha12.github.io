@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(209, 209, 250);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.botoes {
+    text-align: center;
+}
+
+.cat, .pro, .ven {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 110px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.cat:hover, .pro:hover, .ven:hover {
+    background-color: white;
+    color: black;
+    opacity: 95%;
+}
+
+.tabela {
+    justify-content: right;
+}
+
+.table {
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid;
+}
+
